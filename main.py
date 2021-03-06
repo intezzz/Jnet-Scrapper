@@ -207,7 +207,7 @@ if __name__ == "__main__":
             log_success("Error - " + str(datetime.date.today()))
             input("Error occurred. Press enter to exit")
             quit()
-        log_success(str(datetime.date.today()) + "----" + groups[i])
+        # log_success(str(datetime.date.today()) + "----" + groups[i])
 
         # for key in guest.keys():
         #     print(get_date_time(key))

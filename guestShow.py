@@ -43,7 +43,7 @@ def is_filter_guest_show(data, group: str) -> bool:
         return False
     for item in data:
         if "★" in item or "放送予定" in item or \
-                ("SONGS OF TOKYO" in item and "[" in item):
+                ("SONGS OF TOKYO" in item and "[" in item) or ("[再放送]" in item):
             return True
     return False
 

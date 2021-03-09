@@ -12,7 +12,7 @@ def log_regular_show(data, regular: Dict, logged: Dict):
             info[0] = info[0][:2]
             break
         if "再放送" in info[0][i] or "放送予定" in info[0][i] or "★" in info[0][i]\
-                or "※" in info[0][i]:
+                or "※" in info[0][i] or 'オンエア' in info[0][i]:
             return None
     for i in range(len(info[0])):
         if "毎週" in info[0][i]:

@@ -199,19 +199,19 @@ if __name__ == "__main__":
         # print(regular)
         # # print(read_logged_events() == guest)
 
-        # try:
-        #     service = api_setup(groups[i])
-        #     add_event_to_cal(service, guest, groups[i], calendar_links[i])
-        #     add_event_to_cal(service, regular, groups[i], calendar_links[i])
-        # except:
-        #     log_success("Error - " + str(datetime.date.today()))
-        #     input("Error occurred. Press enter to exit")
-        #     quit()
-        # log_success(str(datetime.date.today()) + "----" + groups[i])
+        try:
+            service = api_setup(groups[i])
+            add_event_to_cal(service, guest, groups[i], calendar_links[i])
+            add_event_to_cal(service, regular, groups[i], calendar_links[i])
+        except:
+            log_success("Error - " + str(datetime.date.today()))
+            input("Error occurred. Press enter to exit")
+            quit()
+        log_success(str(datetime.date.today()) + "----" + groups[i])
 
         # for key in guest.keys():
         #     print(get_date_time(key))
 
-        service = api_setup(groups[i])
-        add_event_to_cal(service, guest, groups[i], calendar_links[i])
-        add_event_to_cal(service, regular, groups[i], calendar_links[i])
+        # service = api_setup(groups[i])
+        # add_event_to_cal(service, guest, groups[i], calendar_links[i])
+        # add_event_to_cal(service, regular, groups[i], calendar_links[i])

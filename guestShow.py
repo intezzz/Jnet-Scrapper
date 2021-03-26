@@ -22,16 +22,14 @@ def log_guest_show(data, guest: Dict, logged: Dict, group: str) -> None:
             extract_event(data[-1].get_text("  "))]
     if is_song_of_tokyo(info):
         info = extract_song_of_tokyo(info)
-    if is_shounenclub(info):
+    elif is_shounenclub(info):
         info = extract_shounenclub(info)
-    flag = True
     if is_logged_event(info, logged):
         return None
     for item in info:
         if is_filter_guest_show(item, group):
-            flag = False
-    if flag:
-        guest[info[0]] = info[-1]
+            return None
+    guest[info[0]] = info[-1]
 
 
 def is_filter_guest_show(data, group: str) -> bool:
@@ -43,8 +41,9 @@ def is_filter_guest_show(data, group: str) -> bool:
         return False
     for item in data:
         if "★" in item or "放送予定" in item or \
-                ("SONGS OF TOKYO" in item and "[" in item) or ("[再放送]" in item)\
-                or "順次オンエア" in item:
+                ("SONGS OF TOKYO" in item and "[" in item) or ("[再放送]" in item) \
+                or "順次オンエア" in item or (
+                "NHKワールド" in item and "SONGS OF TOKYO" not in item):
             return True
     return False
 

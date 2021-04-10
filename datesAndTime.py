@@ -79,7 +79,11 @@ def fix_time_day(time_date: tuple) -> tuple:
 
 
 def get_date_time(key: tuple) -> List:
-    if len(key) == 2:
+    if not (len(key) == 2 and len(key[0]) <= 8):
+        first = key[0][:key[0].index(")") + 1]
+        leftover = key[0][key[0].index(")") + 1:]
+        key = (first, leftover)
+    if len(key) == 2 and len(key[0]) <= 8:
         date = key[0]
         time = key[1]
         month = date[:date.index("/")]

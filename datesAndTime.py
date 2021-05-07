@@ -79,10 +79,22 @@ def fix_time_day(time_date: tuple) -> tuple:
 
 
 def get_date_time(key: tuple) -> List:
+    if '、' in key[0]:
+        key = (key[0][:key[0].index("、")], key[1])
     if not (len(key) == 2 and len(key[0]) <= 8):
-        first = key[0][:key[0].index(")") + 1]
-        leftover = key[0][key[0].index(")") + 1:]
-        key = (first, leftover)
+        if key[0][-1] == ':' and key[2] != '':
+            key = (key[1], key[2])
+        else:
+            for i in range(len(key)):
+                try:
+                    first = key[i][:key[0].index(")") + 1]
+                    leftover = key[i][key[0].index(")") + 1:]
+                    key = (first, leftover)
+                except ValueError:
+                    pass
+                else:
+                    break
+
     if len(key) == 2 and len(key[0]) <= 8:
         date = key[0]
         time = key[1]

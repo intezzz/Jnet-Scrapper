@@ -13,3 +13,7 @@ https://www.johnnys-net.jp/page?id=media&artist=29
 https://www.johnnys-net.jp/page?id=media&artist=41
 https://www.johnnys-net.jp/page?id=media&artist=42
 https://www.johnnys-net.jp/page?id=media&artist=43
+https://www.johnnys-net.jp/page?id=media&artist=26
+https://www.johnnys-net.jp/page?id=media&artist=14
+https://www.johnnys-net.jp/page?id=media&artist=12
+https://www.johnnys-net.jp/page?id=media&artist=17

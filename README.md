@@ -25,3 +25,9 @@ The detailed instructions cannot be listed here right now.
 ## Contacts
 
 - Twitter [@heyworldhi](https://twitter.com/heyworldhi)
+
+## Disclaimer
+
+All artists are not owned by me, nor their schedules. This is merely created for easier access for fans like me, who wants to closely follow artists' TV appearances, and have them all organized in a calendar.
+
+Please contact if there are any issues. 

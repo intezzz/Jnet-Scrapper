@@ -1,17 +1,7 @@
----
-attachments: [Clipboard_2021-06-05-01-53-44.png]
-tags: [Import-85fe]
-title: Johnny's Net Artist Calendar
-created: '2021-03-06T05:19:24.299Z'
-modified: '2021-06-04T18:02:31.762Z'
----
-
 # Johnny's Net Artist Calendar
 
 ## Summary
 This is a web-scrapper that is connected to the Google Calendar API, which auto-updates the calendar according to schedules posted on johnnys.net
-
-![](@attachment/Clipboard_2021-06-05-01-53-44.png)
 
 Calendar shared with ical format, or with Google Calendar sharing
 

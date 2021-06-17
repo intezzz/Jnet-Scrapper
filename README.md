@@ -22,6 +22,10 @@ https://bit.ly/jnet-callinks
 For other calendars, it should work if you paste the calendar link to where it says "subscribe with url" under calendar settings -> add calendar / subscribe to calendar
 The detailed instructions cannot be listed here right now.
 
+## Bug reports
+
+There are still some errors that are constantly happening, when I am not available to fix right away. If the calendar is not updating for a significant amount of time (for example, not updating regular shows which should be updated weekly), please do not hesitate to contact me, I will fix them asap.
+
 ## Contacts
 
 - Twitter [@heyworldhi](https://twitter.com/heyworldhi)

@@ -28,7 +28,7 @@ There are still some errors that are constantly happening, when I am not availab
 
 ## Contacts
 
-- Twitter [@heyworldhi](https://twitter.com/heyworldhi)
+- [Email](mailto:mapleleafkaedechan@gmail.com)
 
 ## Disclaimer
 

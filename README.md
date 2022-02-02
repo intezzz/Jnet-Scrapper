@@ -9,6 +9,7 @@ For more details, please refer to [this site](https://intezzz.wordpress.com/jnet
 
 ## Calendar links
 
+** Due to personal reasons, updates are currently paused **
 As of now, there are a total of 19 groups/artist calendars that are constantly updated.
 
 All links are sorted in [this](https://bit.ly/jnet-callinks) document.
